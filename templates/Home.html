@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - CodroidHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #007BFF;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .theme-section {
+            background-size: cover;
+            background-position: center;
+            color: rgb(4, 4, 4);
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .theme-section h1 {
+            font-size: 25px;
+            margin: 0;
+        }
+        .theme-section p {
+            font-size: 24px;
+            margin: 10px 0 0;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">About Developer 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aboutdeveloper.html" target="_blank">Bio</a>
+                <a href="https://github.com/AsmitPrajapati" target="_blank">Github Profile</a>
+                <a href="https://www.linkedin.com/in/asmit-prajapati/" target="_blank">LinkedIn Profile</a>
+            </div>
+        </div> 
+        <a class="linkDes" href="/" Home></a>
+        <a class="linkDes" href="/login">Login</a>
+        <a class="linkDes" href="/signup">Signup</a>
+        <a href="https://www.codroidhub.com" >About CodroidHub</a>
+        <!--<a href="problem statement 1.html">Problem Statement 1</a>
+        <a href="problem statement 2.html">Problem Statement 2</a>
+        <a href="problem statement 3.html">Problem Statement 3</a> -->
+    </div>
+        
+    <div class="theme-section">
+        <h1>AI-Powered Customer Experience Enhancement in E-commerce</h1>
+        <p>"Experience the Future of E-Commerce with AI"</p>
+    </div>
+
+    <div class="content">
+        <h1>Welcome to My Project</h1>
+        <p>Explore our projects and learn more about our initiatives.</p>
+        <div>
+            <button onclick="window.location.href=`/main`">Welcome</button>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <a href="mailto:contact@codroidhub.com">Contact Us</a>
+    </footer>
+
+</body>
+</html>
